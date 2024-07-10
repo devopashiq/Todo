@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do List<img src="images/icon.png" alt="icon" /></h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your ToDos" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+
+      <div  id="mymodel" class="model">
+        <div class="model-content">
+          <p>Are you sure you want to remove this task?</p>
+          <div class="model-button">
+            <button id="confirmbtn">Yes</button>
+            <button id="cancelbtn">No</button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
